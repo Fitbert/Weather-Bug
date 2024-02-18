@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Bug </title>
+</head>
+<body>
+    <h1 class="title text-center font-bold text-5xl p-5">Weather Bug</h1>
+    <form class="searchBar flex justify-center">
+        <input type="text" id="search-window" class="search-window-text bg-gray-100 p-1 rounded-md border-2 border-black text-black" placeholder="Enter City name">
+        <button type="submit" class="Search_btn rounded-md border-2 border-black">Search</button>
+    </form>
+    <div id="card" class="card border-2 m-8 border-black rounded-xl content-center justify-center col-10 col-lg-4 w-30 text-black" style="display: none; flex-direction: column; justify-content: flex-end; align-items: center;">
+    </div>
+    <div class="card wkForecast border-2 m-8 border-black rounded-xl content-center justify-center col-10 col-lg-4 w-30 text-black" style="display: none; flex-direction: column; justify-content: flex-end; align-items: center;">
+    </div>
+    <div class="searchhistorycard">
+        
+        <ul class="search-history-list flex flex-col items-center border-2 m-8 border-black rounded-xl content-center justify-center col-10 col-lg-4 w-30 text-black">
+        </ul>
+    </div>
+    
+</body>
+<script src="bug.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</html>
